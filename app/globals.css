@@ -10,6 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* 👇 Tus colores personalizados */
+  --color-secondary: #f5741c;
+  --color-dark-bg: #131424;
+
+  --background-image-gradient-cover: 
+    linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +26,17 @@
   }
 }
 
-body {
-  background: var(--background);
+html, body {
+  /* background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; */
+  color: white;
+  background-color: #1f1934;
+}
+
+main{
+  /* border: solid red; */
+  background-color: #393a47;
+  height: 100vh;
+  height: 100dvh;
 }
