@@ -3,7 +3,7 @@
 import { transitionVariantsPage } from "@/utils/motionTransition";
 import { AnimatePresence, motion } from "motion/react";
 
-const TransitiPage = () => {
+const TransitionPage = () => {
     return ( 
         <AnimatePresence mode='wait'>
             <div>
@@ -15,4 +15,4 @@ const TransitiPage = () => {
     );
 }
  
-export default TransitiPage;
+export default TransitionPage;
